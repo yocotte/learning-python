@@ -13,7 +13,18 @@ name = "Alice"
 is_active = True
 
 # Output
-print("Name:", name)
-print("Age:", age)
-print("Height:", height)
-print("Active:", is_active)
+#print("Name:", name)
+#print("Age:", age)
+#print("Height:", height)
+#print("Active:", is_active)
+print (type(name))
+# List variable
+fruits = ["apple", "banana", "cherry"]
+# Dictionary variable
+person = {
+    "name": "Alice",
+    "age": 30,
+    "height": 1.75
+}
+# Tuple variable
+coordinates = (10.0, 20.0)
